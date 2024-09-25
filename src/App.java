@@ -18,5 +18,10 @@ public class App {
         u3.setSenha_user("guilherme");
         new UserDao().cadastrarUser(u3);
 
+        User u4 = new User();
+        u4.setEmail_user("guilh@email");
+        u4.setSenha_user("guiherme");
+        new UserDao().cadastrarUser(u4);
+
     }
 }
